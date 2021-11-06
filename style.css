@@ -1,0 +1,24 @@
+:root {
+  --white: #e0e0e0;
+  --black: #111111;
+  --red: #ff0000;
+  --blue: #15f2fd;
+  --saber-color: var(--blue);
+  --hilt-shadow: var(--black);
+  --toggle-translate: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black);
+  display: flex;
+  align-: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
